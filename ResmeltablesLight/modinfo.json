@@ -1,0 +1,11 @@
+{
+  "type": "content",
+  "name": "Re-Smeltables Light",
+  "version": "1.0.0",
+  "description": "Lets you put more and bigger things in the crucible! (So long it has 'u'nits LOL)",
+  "authors": ["Cousax"],
+  "side": "server",
+  "requiredOnClient": "false",
+  "requiredOnServer": "true",
+  "dependencies": {"game": "0.0.0"}
+}
