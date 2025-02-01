@@ -34,128 +34,261 @@
     "value": {
       "*-copper": {
         "meltingPoint": 1084,
-        "meltingDuration": 30,
+        "meltingDuration": 20,
         "smeltedRatio": 1,
         "smeltedStack": { "type": "item", "code": "ingot-copper" }
       },
       "*-brass": {
         "meltingPoint": 920,
-        "meltingDuration": 30,
+        "meltingDuration": 20,
         "smeltedRatio": 1,
         "smeltedStack": { "type": "item", "code": "ingot-brass" }
       },
       "*-tinbronze": {
         "meltingPoint": 950,
-        "meltingDuration": 30,
+        "meltingDuration": 20,
         "smeltedRatio": 1,
         "smeltedStack": { "type": "item", "code": "ingot-tinbronze" }
       },
       "*-bismuthbronze": {
         "meltingPoint": 850,
-        "meltingDuration": 30,
+        "meltingDuration": 20,
         "smeltedRatio": 1,
         "smeltedStack": { "type": "item", "code": "ingot-bismuthbronze" }
       },
       "*-blackbronze": {
         "meltingPoint": 1020,
-        "meltingDuration": 30,
+        "meltingDuration": 20,
         "smeltedRatio": 1,
         "smeltedStack": { "type": "item", "code": "ingot-blackbronze" }
       },
       "*-iron": {
         "meltingPoint": 1482,
-        "meltingDuration": 30,
+        "meltingDuration": 20,
         "smeltedRatio": 1,
         "smeltedStack": { "type": "item", "code": "ingot-iron" }
       },
       "*-meteoriciron": {
         "meltingPoint": 1476,
-        "meltingDuration": 30,
+        "meltingDuration": 20,
         "smeltedRatio": 1,
         "smeltedStack": { "type": "item", "code": "ingot-meteoriciron" }
       },
       "*-steel": {
         "meltingPoint": 1502,
-        "meltingDuration": 30,
+        "meltingDuration": 20,
         "smeltedRatio": 1,
         "smeltedStack": { "type": "item", "code": "ingot-steel" }
       },
       "*-blistersteel": {
         "meltingPoint": 1602,
-        "meltingDuration": 30,
+        "meltingDuration": 20,
         "smeltedRatio": 1,
         "smeltedStack": { "type": "item", "code": "ingot-blistersteel" }
       },
       "*-gold": {
         "meltingPoint": 1063,
-        "meltingDuration": 30,
+        "meltingDuration": 20,
         "smeltedRatio": 1,
         "smeltedStack": { "type": "item", "code": "ingot-gold" }
       },
       "*-lead": {
         "meltingPoint": 327,
-        "meltingDuration": 30,
+        "meltingDuration": 20,
         "smeltedRatio": 1,
         "smeltedStack": { "type": "item", "code": "ingot-lead" }
       },
       "*-tin": {
         "meltingPoint": 232,
-        "meltingDuration": 30,
+        "meltingDuration": 20,
         "smeltedRatio": 1,
         "smeltedStack": { "type": "item", "code": "ingot-tin" }
       },
       "*-chromium": {
         "meltingPoint": 1907,
-        "meltingDuration": 30,
+        "meltingDuration": 20,
         "smeltedRatio": 1,
         "smeltedStack": { "type": "item", "code": "ingot-chromium" }
       },
       "*-platinum": {
         "meltingPoint": 1770,
-        "meltingDuration": 30,
+        "meltingDuration": 20,
         "smeltedRatio": 1,
         "smeltedStack": { "type": "item", "code": "ingot-platinum" }
       },
       "*-titanium": {
         "meltingPoint": 1668,
-        "meltingDuration": 30,
+        "meltingDuration": 20,
         "smeltedRatio": 1,
         "smeltedStack": { "type": "item", "code": "ingot-titanium" }
       },
       "*-zinc": {
         "meltingPoint": 419,
-        "meltingDuration": 30,
+        "meltingDuration": 20,
         "smeltedRatio": 1,
         "smeltedStack": { "type": "item", "code": "ingot-zinc" }
       },
       "*-silver": {
         "meltingPoint": 961,
-        "meltingDuration": 30,
+        "meltingDuration": 20,
         "smeltedRatio": 1,
         "smeltedStack": { "type": "item", "code": "ingot-silver" }
       },
       "*-bismuth": {
         "meltingPoint": 271,
-        "meltingDuration": 30,
+        "meltingDuration": 20,
         "smeltedRatio": 1,
         "smeltedStack": { "type": "item", "code": "ingot-bismuth" }
       },
       "*-molybdochalkos": {
         "meltingPoint": 902,
-        "meltingDuration": 30,
+        "meltingDuration": 20,
         "smeltedRatio": 1,
         "smeltedStack": { "type": "item", "code": "ingot-molybdochalkos" }
       },
       "*-leadsolder": {
         "meltingPoint": 327,
-        "meltingDuration": 30,
+        "meltingDuration": 20,
         "smeltedRatio": 1,
         "smeltedStack": { "type": "item", "code": "ingot-leadsolder" }
       },
       "*-silversolder": {
         "meltingPoint": 758,
-        "meltingDuration": 30,
+        "meltingDuration": 20,
         "smeltedRatio": 1,
+        "smeltedStack": { "type": "item", "code": "ingot-silversolder" }
+      }
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/arrowhead",
+    "op": "add",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-copper": {
+        "meltingPoint": 1084,
+        "meltingDuration": 20,
+        "smeltedRatio": 9,
+        "smeltedStack": { "type": "item", "code": "ingot-copper" }
+      },
+      "*-brass": {
+        "meltingPoint": 920,
+        "meltingDuration": 20,
+        "smeltedRatio": 9,
+        "smeltedStack": { "type": "item", "code": "ingot-brass" }
+      },
+      "*-tinbronze": {
+        "meltingPoint": 950,
+        "meltingDuration": 20,
+        "smeltedRatio": 9,
+        "smeltedStack": { "type": "item", "code": "ingot-tinbronze" }
+      },
+      "*-bismuthbronze": {
+        "meltingPoint": 850,
+        "meltingDuration": 20,
+        "smeltedRatio": 9,
+        "smeltedStack": { "type": "item", "code": "ingot-bismuthbronze" }
+      },
+      "*-blackbronze": {
+        "meltingPoint": 1020,
+        "meltingDuration": 20,
+        "smeltedRatio": 9,
+        "smeltedStack": { "type": "item", "code": "ingot-blackbronze" }
+      },
+      "*-iron": {
+        "meltingPoint": 1482,
+        "meltingDuration": 20,
+        "smeltedRatio": 9,
+        "smeltedStack": { "type": "item", "code": "ingot-iron" }
+      },
+      "*-meteoriciron": {
+        "meltingPoint": 1476,
+        "meltingDuration": 20,
+        "smeltedRatio": 9,
+        "smeltedStack": { "type": "item", "code": "ingot-meteoriciron" }
+      },
+      "*-steel": {
+        "meltingPoint": 1502,
+        "meltingDuration": 20,
+        "smeltedRatio": 9,
+        "smeltedStack": { "type": "item", "code": "ingot-steel" }
+      },
+      "*-blistersteel": {
+        "meltingPoint": 1602,
+        "meltingDuration": 20,
+        "smeltedRatio": 9,
+        "smeltedStack": { "type": "item", "code": "ingot-blistersteel" }
+      },
+      "*-gold": {
+        "meltingPoint": 1063,
+        "meltingDuration": 20,
+        "smeltedRatio": 9,
+        "smeltedStack": { "type": "item", "code": "ingot-gold" }
+      },
+      "*-lead": {
+        "meltingPoint": 327,
+        "meltingDuration": 20,
+        "smeltedRatio": 9,
+        "smeltedStack": { "type": "item", "code": "ingot-lead" }
+      },
+      "*-tin": {
+        "meltingPoint": 232,
+        "meltingDuration": 20,
+        "smeltedRatio": 9,
+        "smeltedStack": { "type": "item", "code": "ingot-tin" }
+      },
+      "*-chromium": {
+        "meltingPoint": 1907,
+        "meltingDuration": 20,
+        "smeltedRatio": 9,
+        "smeltedStack": { "type": "item", "code": "ingot-chromium" }
+      },
+      "*-platinum": {
+        "meltingPoint": 1770,
+        "meltingDuration": 20,
+        "smeltedRatio": 9,
+        "smeltedStack": { "type": "item", "code": "ingot-platinum" }
+      },
+      "*-titanium": {
+        "meltingPoint": 1668,
+        "meltingDuration": 20,
+        "smeltedRatio": 9,
+        "smeltedStack": { "type": "item", "code": "ingot-titanium" }
+      },
+      "*-zinc": {
+        "meltingPoint": 419,
+        "meltingDuration": 20,
+        "smeltedRatio": 9,
+        "smeltedStack": { "type": "item", "code": "ingot-zinc" }
+      },
+      "*-silver": {
+        "meltingPoint": 961,
+        "meltingDuration": 20,
+        "smeltedRatio": 9,
+        "smeltedStack": { "type": "item", "code": "ingot-silver" }
+      },
+      "*-bismuth": {
+        "meltingPoint": 271,
+        "meltingDuration": 20,
+        "smeltedRatio": 9,
+        "smeltedStack": { "type": "item", "code": "ingot-bismuth" }
+      },
+      "*-molybdochalkos": {
+        "meltingPoint": 902,
+        "meltingDuration": 20,
+        "smeltedRatio": 9,
+        "smeltedStack": { "type": "item", "code": "ingot-molybdochalkos" }
+      },
+      "*-leadsolder": {
+        "meltingPoint": 327,
+        "meltingDuration": 20,
+        "smeltedRatio": 9,
+        "smeltedStack": { "type": "item", "code": "ingot-leadsolder" }
+      },
+      "*-silversolder": {
+        "meltingPoint": 758,
+        "meltingDuration": 20,
+        "smeltedRatio": 9,
         "smeltedStack": { "type": "item", "code": "ingot-silversolder" }
       }
     }

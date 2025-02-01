@@ -3,12 +3,6 @@
     "file": "game:blocktypes/clay/crucible",
     "op": "replace",
     "path": "/attributesByType/crucible-burned/maxContentDimensions",
-    "value": {"width": 10, "height": 10, "length": 10}
-  },
-  {
-    "file": "game:blocktypes/clay/crucible",
-    "op": "replace",
-    "path": "/attributesByType/crucible-burned/maxHeatableTemp",
-    "value": 1000000
+    "value": {"width": 0.5, "height": 0.5, "length": 0.5}
   }
 ]
