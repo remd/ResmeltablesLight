@@ -1,11 +1,11 @@
 {
   "type": "content",
   "name": "Re-Smeltables Light",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Allow unused toolheads to be smelted in a crucible",
   "authors": ["octeris"],
   "side": "server",
   "requiredOnClient": "false",
   "requiredOnServer": "true",
-  "dependencies": {"game": "0.0.0"}
+  "dependencies": {"game": "1.20.4"}
 }
